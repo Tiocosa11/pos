@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto de Venta</title>
+    <style>
+        th,h1,h2,tbody,td,tr{
+            font-family: sans-serif; /*Que es esto?*/
+        }
+        .titulo{
+            text-align: center; /*Que es esto?*/
+            align-items: center; /*Que es esto?*/
+            display: flex; /*Que es esto?*/
+            justify-content: space-around; /*Que es esto?*/
+            margin-top: 0%; /*Que es esto?*/
+            margin-bottom: 20px; /*Que es esto?*/
+        }
+        .titulo1{
+            margin: 0; /*Que es esto?*/
+        }
+        .subtitulo1{
+            margin: 0; /*Que es esto?*/
+        }
+        .logoIzq{
+            width: 100%; /*Que es esto?*/
+            max-width: 120px; /*Que es esto?*/
+            height: auto; /*Que es esto?*/
+            margin-right: 20px; /*Que es esto?*/
+            position: absolute; /*Que es esto?*/
+        }
+        .logoDer{
+            width: 100%; /*Que es esto?*/
+            max-width: 120px; /*Que es esto?*/
+            height: auto; /*Que es esto?*/
+            margin-right: 20px; /*Que es esto?*/
+            position: absolute; /*Que es esto?*/
+            right: 0; /*Que es esto?*/
+        }
+        .listaProductos{
+            font-size: x-large; /*Que es esto?*/
+            height: 60vh; /*Que es esto?*/
+            max-height: 60vh; /*Que es esto?*/
+            overflow-y: auto; /*Que es esto?*/
+            border: 1px solid black; /*Que es esto?*/
+            margin-top: 130px; /*Que es esto?*/
+        }
+        #tblListado{
+            max-height: 50%; /*Que es esto?*/
+            width: 100%; /*Que es esto?*/
+            font-size: larger; /*Que es esto?*/
+            border-collapse: collapse; /*Que es esto?*/
+            table-layout: fixed; /*Que es esto?*/
+        }
+        #tblListado th{
+            text-align: left; /*Que es esto?*/
+            padding: 10px; /*Que es esto?*/
+            border-bottom: 2px solid #333; /*Que es esto?*/
+        }
+        #tblListado td{
+            padding: 10px; /*Que es esto?*/
+            border-bottom: 1px solid #ddd; /*Que es esto?*/
+        }
+        #tblListado th:nth-child(1), #tblListado td:nth-child(1){
+            width: 40%; /*Que es esto?*/
+        }
+        #tblListado th:nth-child(2), #tblListado td:nth-child(2){
+            width: 20%; /*Que es esto?*/
+        }
+        #tblListado th:nth-child(3), #tblListado td:nth-child(3){
+            width: 20%; /*Que es esto?*/
+        }
+        #tblListado th:nth-child(4), #tblListado td:nth-child(4){
+            width: 20%; /*Que es esto?*/
+        }
+        #bdContenido{
+            max-height: 10%; /*Que es esto?*/
+            width: 100%; /*Que es esto?*/
+            font-size: larger; /*Que es esto?*/
+        }
+        .escanear{
+            font-size: x-large; /*Que es esto?*/
+            width: calc(100% - 8px); /*Que es esto?*/
+            /*padding: 10%;*/ /*Que es esto?*/
+            height: 0px; /*Que es esto?*/
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- IMAGEN EN LA ESQUINA SUPERIOR IZQUIERDA-->
+    <img src="img1.png" class="logoIzq"/>
+    <!-- IMAGEN EN LA ESQUINA SUPERIOR DERECHA-->
+    <img src="img2.png" class="logoDer"/>
+    
+    <!-- Definimos Titulo-->
+    <div class="titulo">
+        <div>
+            <h1 class="titulo1">Don Baraton</h1>
+            <h2 class="subtitulo1">Donde lo bueno, bonito y barato no existe, pero de seguro lo tenemos.</h2>
+        </div>
+    </div>
+    
+    <!-- Se debe visualizar una table donde se muestre los productos-->
+    <div class="listaProductos">
+    <table border="0" id="tblListado">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Cantidad</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody id="bdContenido">
+            <tr>
+                <td>Producto 1</td>
+                <td>$10</td>
+                <td>1</td>
+                <td>$10</td>
+            </tr>
+            <tr>
+                <td>Producto 2</td>
+                <td>$20</td>
+                <td>2</td>
+                <td>$40</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+</body>
+</html>
