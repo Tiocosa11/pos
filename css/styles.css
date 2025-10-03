@@ -5,148 +5,148 @@ tbody,
 td,
 tr {
     font-family: sans-serif;
-    /*Que es esto?*/
+    /*Establece una fuente sin serifa para todos los elementos de texto*/
 }
 
 .titulo {
     text-align: center;
-    /*Que es esto?*/
+    /*Centra el texto horizontalmente*/
     align-items: center;
-    /*Que es esto?*/
+    /*Centra los elementos verticalmente en el contenedor flex*/
     display: flex;
-    /*Que es esto?*/
+    /*Convierte el contenedor en un elemento flexible*/
     justify-content: space-around;
-    /*Que es esto?*/
+    /*Distribuye el espacio uniformemente alrededor de los elementos*/
     margin-top: 0%;
-    /*Que es esto?*/
+    /*Elimina el margen superior*/
     margin-bottom: 20px;
-    /*Que es esto?*/
+    /*Agrega espacio de 20px en la parte inferior*/
 }
 
 .titulo1 {
     margin: 0;
-    /*Que es esto?*/
+    /*Elimina todos los márgenes del título principal*/
 }
 
 .subtitulo1 {
     margin: 0;
-    /*Que es esto?*/
+    /*Elimina todos los márgenes del subtítulo*/
 }
 
 .logoIzq {
     width: 100%;
-    /*Que es esto?*/
+    /*Hace que la imagen ocupe todo el ancho disponible*/
     max-width: 120px;
-    /*Que es esto?*/
+    /*Limita el ancho máximo a 120 píxeles*/
     height: auto;
-    /*Que es esto?*/
+    /*Mantiene la proporción original de la imagen*/
     margin-right: 20px;
-    /*Que es esto?*/
+    /*Agrega espacio de 20px a la derecha*/
     position: absolute;
-    /*Que es esto?*/
+    /*Posiciona el elemento de forma absoluta respecto al contenedor*/
 }
 
 .logoDer {
     width: 100%;
-    /*Que es esto?*/
+    /*Hace que la imagen ocupe todo el ancho disponible*/
     max-width: 120px;
-    /*Que es esto?*/
+    /*Limita el ancho máximo a 120 píxeles*/
     height: auto;
-    /*Que es esto?*/
+    /*Mantiene la proporción original de la imagen*/
     margin-right: 20px;
-    /*Que es esto?*/
+    /*Agrega espacio de 20px a la derecha*/
     position: absolute;
-    /*Que es esto?*/
+    /*Posiciona el elemento de forma absoluta respecto al contenedor*/
     right: 0;
-    /*Que es esto?*/
+    /*Alinea el elemento al borde derecho del contenedor*/
 }
 
 .listaProductos {
     font-size: x-large;
-    /*Que es esto?*/
+    /*Establece un tamaño de fuente extra grande*/
     height: 60vh;
-    /*Que es esto?*/
+    /*Define la altura como 60% de la altura de la ventana*/
     max-height: 60vh;
-    /*Que es esto?*/
+    /*Limita la altura máxima al 60% de la ventana*/
     overflow-y: auto;
-    /*Que es esto?*/
+    /*Agrega scroll vertical cuando el contenido excede la altura*/
     border: 1px solid black;
-    /*Que es esto?*/
+    /*Agrega un borde negro sólido de 1 píxel*/
     margin-top: 130px;
-    /*Que es esto?*/
+    /*Agrega un margen superior de 130px*/
 }
 
 #tblListado {
     max-height: 50%;
-    /*Que es esto?*/
+    /*Limita la altura máxima de la tabla al 50% del contenedor*/
     width: 100%;
-    /*Que es esto?*/
+    /*Hace que la tabla ocupe todo el ancho disponible*/
     font-size: larger;
-    /*Que es esto?*/
+    /*Establece un tamaño de fuente más grande*/
     border-collapse: collapse;
-    /*Que es esto?*/
+    /*Une los bordes de las celdas para crear una línea continua*/
     table-layout: fixed;
-    /*Que es esto?*/
+    /*Fija el diseño de la tabla para control preciso de columnas*/
 }
 
 #tblListado th {
     text-align: left;
-    /*Que es esto?*/
+    /*Alinea el texto de los encabezados hacia la izquierda*/
     padding: 10px;
-    /*Que es esto?*/
+    /*Agrega 10px de espacio interno en todas las direcciones*/
     border-bottom: 2px solid #333;
-    /*Que es esto?*/
+    /*Agrega un borde inferior grueso de color gris oscuro*/
 }
 
 #tblListado td {
     padding: 10px;
-    /*Que es esto?*/
+    /*Agrega 10px de espacio interno en todas las direcciones*/
     border-bottom: 1px solid #ddd;
-    /*Que es esto?*/
+    /*Agrega un borde inferior delgado de color gris claro*/
 }
 
 #tblListado th:nth-child(1),
 #tblListado td:nth-child(1) {
     width: 40%;
-    /*Que es esto?*/
+    /*Establece el ancho de la primera columna (Producto) al 40%*/
 }
 
 #tblListado th:nth-child(2),
 #tblListado td:nth-child(2) {
     width: 20%;
-    /*Que es esto?*/
+    /*Establece el ancho de la segunda columna (Precio) al 20%*/
 }
 
 #tblListado th:nth-child(3),
 #tblListado td:nth-child(3) {
     width: 20%;
-    /*Que es esto?*/
+    /*Establece el ancho de la tercera columna (Cantidad) al 20%*/
 }
 
 #tblListado th:nth-child(4),
 #tblListado td:nth-child(4) {
     width: 20%;
-    /*Que es esto?*/
+    /*Establece el ancho de la cuarta columna (Total) al 20%*/
 }
 
 #bdContenido {
     max-height: 10%;
-    /*Que es esto?*/
+    /*Limita la altura máxima del cuerpo de la tabla al 10%*/
     width: 100%;
-    /*Que es esto?*/
+    /*Hace que el cuerpo de la tabla ocupe todo el ancho*/
     font-size: larger;
-    /*Que es esto?*/
+    /*Establece un tamaño de fuente más grande*/
 }
 
 .escaner {
     font-size: x-large;
-    /*Que es esto?*/
+    /*Establece un tamaño de fuente extra grande para el input*/
     width: calc(100% - 8px);
-    /*Que es esto?*/
+    /*Calcula el ancho como 100% menos 8px para evitar desbordamiento*/
     /*padding: 10%;*/
-    /*Que es esto?*/
+    /*Comentado: agregaría espacio interno del 10%*/
     height: 50px;
-    /*Que es esto?*/
+    /*Define la altura del campo de entrada en 50px*/
 
 }
 
