@@ -150,12 +150,70 @@ tr {
 
 }
 
+.contenedorInferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.totalCompra {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    flex: 1;
+}
+
+.botones {
+    display: flex;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+}
+
+.totalInput {
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border: 3px solid #333;
+    border-radius: 10px;
+    color: #000;
+    margin-left: 10px;
+}
+
 .btn {
-    height: 15vh;
-    width: 20vh;
-    background-size: cover;
+    height: 12vh;
+    width: 16vh;
+    background-size: 50%;
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+}
 
+#btn1 {
+    background-image: url('../img/shopping-cart-svgrepo-com.svg');
+}
+
+#btn2 {
+    background-image: url('../img/sale-tag-hand-drawn-symbol-svgrepo-com.svg');
+}
+
+#btn3 {
+    background-image: url('../img/money-bag-dollar-svgrepo-com.svg');
+}
+
+#btn4 {
+    background-image: url('../img/delivery-svgrepo-com.svg');
+}
+
+#btn5 {
+    background-image: url('../img/coin-send-svgrepo-com.svg');
+}
+
+#btn6 {
+    background-image: url('../img/delete-trash-remove-svgrepo-com.svg');
 }

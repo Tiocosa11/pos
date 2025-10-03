@@ -36,30 +36,31 @@
         <tbody id="bdContenido">
             <!--Productos de Forma Dinamica-->
 
-            <tr>
-                <td>Producto 1</td>
-                <td>$10</td>
-                <td>1</td>
-                <td>$10</td>
-            </tr>
-            <tr>
-                <td>Producto 2</td>
-                <td>$20</td>
-                <td>2</td>
-                <td>$40</td>
-            </tr>
         </tbody>
     </table>
     </div>
     <!-- input para introducir el codigo -->
         <input type="text" class="escaner"/>
-    <!-- botones con imagen. -->
-    <div class="botones">
-        <input type="button" id="btn1" class="btn"/>
-        <input type="button" id="btn2" class="btn"/>
-        <input type="button" id="btn3" class="btn"/>
-        <input type="button" id="btn4" class="btn"/>
-        <input type="button" id="btn5" class="btn"/>
+    
+    <!-- Contenedor para total y botones -->
+    <div class="contenedorInferior">
+        <!-- Total de la compra -->
+        <div class="totalCompra">
+            <label for="totalGeneral">TOTAL DE LA COMPRA:</label>
+            <input type="text" id="totalGeneral" class="totalInput" readonly value="$0.00"/>
+        </div>
+        
+        <!-- botones con imagen. -->
+        <div class="botones">
+            <input type="button" id="btn1" class="btn"/>
+            <input type="button" id="btn2" class="btn"/>
+            <input type="button" id="btn3" class="btn"/>
+            <input type="button" id="btn4" class="btn"/>
+            <input type="button" id="btn5" class="btn"/>
+            <input type="button" id="btn6" class="btn"/>
+        </div>
     </div>
+    
+    <script src="./js/function.js"></script>
 </body>
 </html>
